@@ -16,7 +16,6 @@
 		482DCA8025AE5B6C00237B91 /* TweetSentimentClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 482DCA7F25AE5B6C00237B91 /* TweetSentimentClassifier.mlmodel */; };
 		482DCA9925AE98D500237B91 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 482DCA8B25AE984600237B91 /* SwifteriOS.framework */; };
 		482DCA9A25AE98D500237B91 /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 482DCA8B25AE984600237B91 /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		482DCA9D25AE9C5A00237B91 /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 482DCA9C25AE9C5A00237B91 /* Secrets.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,7 +81,6 @@
 		482DCA7525AE4B1F00237B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		482DCA7F25AE5B6C00237B91 /* TweetSentimentClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TweetSentimentClassifier.mlmodel; sourceTree = "<group>"; };
 		482DCA8225AE984500237B91 /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = ../../../Desktop/Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
-		482DCA9C25AE9C5A00237B91 /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +124,6 @@
 				482DCA7225AE4B1F00237B91 /* LaunchScreen.storyboard */,
 				482DCA7F25AE5B6C00237B91 /* TweetSentimentClassifier.mlmodel */,
 				482DCA7525AE4B1F00237B91 /* Info.plist */,
-				482DCA9C25AE9C5A00237B91 /* Secrets.plist */,
 			);
 			path = "Twiit-Sentiment";
 			sourceTree = "<group>";
@@ -253,7 +250,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				482DCA9D25AE9C5A00237B91 /* Secrets.plist in Resources */,
 				482DCA7425AE4B1F00237B91 /* LaunchScreen.storyboard in Resources */,
 				482DCA7125AE4B1F00237B91 /* Assets.xcassets in Resources */,
 				482DCA6F25AE4B1D00237B91 /* Main.storyboard in Resources */,
